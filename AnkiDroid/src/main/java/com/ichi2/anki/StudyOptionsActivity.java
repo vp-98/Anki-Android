@@ -33,7 +33,7 @@ import static com.ichi2.anim.ActivityTransitionAnimation.Direction.END;
 public class StudyOptionsActivity extends NavigationDrawerActivity implements StudyOptionsListener,
         CustomStudyDialog.CustomStudyListener {
 
-
+    private StudyOptionsFragment mOptionsFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (showedActivityFailedScreen(savedInstanceState)) {
@@ -55,8 +55,10 @@ public class StudyOptionsActivity extends NavigationDrawerActivity implements St
         if (getIntent().getExtras() != null) {
             withDeckOptions = getIntent().getExtras().getBoolean("withDeckOptions");
         }
-        StudyOptionsFragment currentFragment = StudyOptionsFragment.newInstance(withDeckOptions);
-        getSupportFragmentManager().beginTransaction().replace(R.id.studyoptions_frame, currentFragment).commit();
+        //StudyOptionsFragment currentFragment = StudyOptionsFragment.newInstance(withDeckOptions);
+        //getSupportFragmentManager().beginTransaction().replace(R.id.studyoptions_frame, currentFragment).commit();
+        mOptionsFragment = StudyOptionsFragment.newInstance(withDeckOptions);
+        getSupportFragmentManager().beginTransaction().replace(R.id.studyoptions_frame, mOptionsFragment).commit();
     }
 
 
@@ -67,6 +69,13 @@ public class StudyOptionsActivity extends NavigationDrawerActivity implements St
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId() == R.id.action_undo) {
+            Timber.i("StudyOptionsActivity:: Undo button pressed");
+            mOptionsFragment.forceUndo();
+            return true;
+        }
+
         if (getDrawerToggle().onOptionsItemSelected(item)) {
             return true;
         }
