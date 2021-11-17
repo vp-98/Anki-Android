@@ -50,7 +50,8 @@ public class StudyOptionsActivity extends NavigationDrawerActivity implements St
         }
     }
 
-    private void loadStudyOptionsFragment() {
+
+    protected void loadStudyOptionsFragment() {
         boolean withDeckOptions = false;
         if (getIntent().getExtras() != null) {
             withDeckOptions = getIntent().getExtras().getBoolean("withDeckOptions");
