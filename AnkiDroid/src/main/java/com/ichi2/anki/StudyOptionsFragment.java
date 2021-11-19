@@ -137,6 +137,9 @@ public class StudyOptionsFragment extends Fragment implements Toolbar.OnMenuItem
         }
     };
 
+    /**
+     *Public interface for the study options listener which listens to deck updates.
+     */
     public interface StudyOptionsListener {
         void onRequireDeckListUpdate();
     }
@@ -324,9 +327,8 @@ public class StudyOptionsFragment extends Fragment implements Toolbar.OnMenuItem
     };
 
     /**
-     * forceUndo:
-     *  Provides functionality for the undo menu item. Can be called outside
-     *   of this class.
+     * forceUndo: Provides functionality for the undo menu item. Can be called outside of this class.
+     *  Creates a new undo service.
      */
     public void forceUndo() {
         new UndoService.Undo().runWithHandler(mUndoListener);

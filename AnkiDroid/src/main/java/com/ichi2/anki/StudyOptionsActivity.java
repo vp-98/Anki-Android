@@ -67,7 +67,13 @@ public class StudyOptionsActivity extends NavigationDrawerActivity implements St
         return (StudyOptionsFragment) getSupportFragmentManager().findFragmentById(R.id.studyoptions_frame);
     }
 
-
+    /**
+     * This method takes in the menu item selected confirms it ID and
+     * calls a further method to perform the requested action.
+     *
+     * @param  item a MenuItem which has been  selected
+     * @return  true or the item selected
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

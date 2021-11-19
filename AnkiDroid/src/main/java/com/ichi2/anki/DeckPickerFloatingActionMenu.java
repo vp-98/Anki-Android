@@ -41,6 +41,13 @@ public class DeckPickerFloatingActionMenu {
     private final DeckPicker mDeckPicker;
     private final LinearLayout mLinearLayout;
 
+    /**
+     * This method adds the floating menu buttons to their correct view for the deck viewer.
+     * It also adds listeners and actions to the floating menu buttons that it attaches to the view.
+     *
+     * @param view the different views of the app, find by ID
+     * @param deckPicker a deck
+     */
     public DeckPickerFloatingActionMenu(View view, DeckPicker deckPicker) {
         mDeckPicker = deckPicker;
         mAddNoteLayout = (LinearLayout)view.findViewById(R.id.add_note_layout);
