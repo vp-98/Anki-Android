@@ -1,0 +1,505 @@
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:173:	UnnecessaryImport:	Unused import 'com.ichi2.anki.cardviewer.ViewerCommand.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:174:	UnnecessaryImport:	Unused import 'com.ichi2.anki.reviewer.CardMarker.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:178:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:342:	FinalFieldCouldBeStatic:	This final field could be made static
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:433:	UncommentedEmptyConstructor:	Document empty constructor
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:538:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:1083:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:1178:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:1188:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:1523:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:1778:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:2546:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:2609:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:2802:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:2811:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:2813:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3041:	DoNotCallGarbageCollectionExplicitly:	Do not explicitly trigger a garbage collection.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3054:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3159:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3163:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3367:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3463:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3526:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3530:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java:3608:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiActivity.java:62:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiActivity.java:68:	FinalFieldCouldBeStatic:	This final field could be made static
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:41:	UnnecessaryImport:	Unused import 'android.view.ViewConfiguration'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:365:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:550:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:558:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:561:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:698:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:720:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiDroidApp.java:732:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/AnkiSerialization.java:36:	NonThreadSafeSingleton:	Singleton is not thread safe
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/BackupManager.java:234:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:116:	UnnecessaryImport:	Unused import 'com.ichi2.anki.CardBrowser.Column.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:118:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:474:	LocalVariableNamingConventions:	The local variable name 'should_save' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:802:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1150:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1395:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1455:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1538:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1546:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1548:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1557:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:1994:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2008:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2185:	LocalVariableNamingConventions:	The local variable name 'suspend_item' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2196:	LocalVariableNamingConventions:	The local variable name 'mark_item' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2265:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2533:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java:2640:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardInfo.java:23:	UnnecessaryImport:	Unused import 'android.os.Build'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardInfo.java:37:	UnnecessaryImport:	Unused import 'com.ichi2.libanki.Models'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardInfo.java:215:	UnsynchronizedStaticFormatter:	Static Formatter objects should be accessed in a synchronized manner
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardInfo.java:220:	UnsynchronizedStaticFormatter:	Static Formatter objects should be accessed in a synchronized manner
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:85:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:105:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:108:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:116:	UnusedPrivateField:	Avoid unused private fields such as 'REQUEST_PREVIEWER'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:117:	UnusedPrivateField:	Avoid unused private fields such as 'REQUEST_CARD_BROWSER_APPEARANCE'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:216:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:373:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:498:	FinalFieldCouldBeStatic:	This final field could be made static
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:500:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplateEditor.java:589:	UselessOverridingMethod:	Overriding method merely calls super
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplatePreviewer.java:290:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplatePreviewer.java:290:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardTemplatePreviewer.java:326:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/CardUtils.java:16:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckOptions.java:608:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:152:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:181:	UnusedPrivateField:	Avoid unused private fields such as 'PICK_EXPORT_FILE'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:216:	UnusedPrivateField:	Avoid unused private fields such as 'mDialogEditText'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:229:	UnusedPrivateField:	Avoid unused private fields such as 'mExportFileName'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:533:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:746:	UnusedLocalVariable:	Avoid unused local variables such as 'res'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:764:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:834:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:834:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:1071:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:1375:	UnusedLocalVariable:	Avoid unused local variables such as 'root'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:1657:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:1746:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:1983:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2032:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2123:	UnusedPrivateMethod:	Avoid unused private methods such as 'openHelpUrl(Uri)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2135:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2196:	MethodNamingConventions:	The instance method name '__renderPage' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2330:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2335:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2386:	UnusedLocalVariable:	Avoid unused local variables such as 'res'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2388:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java:2673:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java:176:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java:188:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java:191:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/DeckSpinnerSelection.java:53:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/FieldEditLine.java:131:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/FilteredDeckOptions.java:342:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Info.java:104:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Info.java:113:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Info.java:119:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Info.java:122:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/IntentHandler.java:61:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/IntentHandler.java:113:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/JavaScriptTTS.java:54:	UnusedPrivateField:	Avoid unused private fields such as 'mTtsOk'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/JavaScriptTTS.java:59:	AssignmentToNonFinalStatic:	Possible unsafe assignment to a non-final static field in a constructor.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/LanguageUtils.java:21:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Lookup.java:16:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Lookup.java:83:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Lookup.java:179:	UnusedFormalParameter:	Avoid unused method parameters such as 'questionAnswer'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Lookup.java:189:	UnusedFormalParameter:	Avoid unused method parameters such as 'language'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Lookup.java:189:	UnusedFormalParameter:	Avoid unused method parameters such as 'questionAnswer'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:60:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:78:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:139:	EmptyStatementNotInLoop:	An empty statement (semicolon) not part of a loop
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:153:	SimplifyBooleanReturns:	Avoid unnecessary if..then..else statements when returning booleans
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:153:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:167:	CheckSkipResult:	Check the value returned by the skip() method of an InputStream to see if the requested number of bytes has been skipped.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MediaRegistration.java:169:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:30:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:53:	UnusedPrivateMethod:	Avoid unused private methods such as 'stripQuotes(String)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:150:	NonThreadSafeSingleton:	Singleton is not thread safe
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:307:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:344:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:520:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:521:	UnusedPrivateMethod:	Avoid unused private methods such as 'getScalarBoolean(Cursor)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MetaDB.java:530:	UnusedPrivateMethod:	Avoid unused private methods such as 'getTableColumnCount(SQLiteDatabase,String)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:54:	UnnecessaryImport:	Unused import 'java.util.Random'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:74:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:75:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:76:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:77:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:78:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:79:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:89:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:166:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:277:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:321:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:337:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:397:	LocalVariableNamingConventions:	The local variable name 'StdModels' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:430:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelBrowser.java:589:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:59:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:179:	MethodNamingConventions:	The instance method name '_uniqueName' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:235:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:336:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:393:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:459:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:508:	ClassNamingConventions:	The class name 'changeHandler' doesn't match '[A-Z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ModelFieldEditor.java:551:	UnusedFormalParameter:	Avoid unused method parameters such as 'reason'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/MyAccount.java:72:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:59:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:211:	LocalVariableNamingConventions:	The local variable name 'NoteEditorShortcut' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:282:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:289:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:336:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:390:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:399:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:408:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NavigationDrawerActivity.java:427:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:137:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:228:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:230:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:232:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:233:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:242:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:253:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:323:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:427:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:488:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:489:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:583:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:698:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:710:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:828:	FormalParameterNamingConventions:	The method parameter name 'extra_text' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:830:	LocalVariableNamingConventions:	The local variable name 'notepad_lines' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:836:	LocalVariableNamingConventions:	The local variable name 'entry_lines' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:844:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:849:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1151:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1166:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1312:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1433:	UnusedLocalVariable:	Avoid unused local variables such as 'clipboard'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1439:	LocalVariableNamingConventions:	The local variable name 'edit_line_view' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1511:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1519:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1565:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1576:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1617:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1654:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1865:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1870:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:1875:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:2133:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'field'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NoteEditor.java:2196:	UnusedPrivateMethod:	Avoid unused private methods such as 'previewNextClozeDeletion(int,int,CharSequence)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/NotificationChannels.java:26:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:118:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:325:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:381:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:394:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:438:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:594:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:595:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:596:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:607:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:653:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:754:	LocalVariableNamingConventions:	The local variable name 'was_enabled' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:755:	LocalVariableNamingConventions:	The local variable name 'is_enabled' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:873:	LocalVariableNamingConventions:	The local variable name 'checkBoxPref_Vibrate' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:874:	LocalVariableNamingConventions:	The local variable name 'checkBoxPref_Blink' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:1142:	UnusedLocalVariable:	Avoid unused local variables such as 'materialDialog'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java:1360:	LocalVariableNamingConventions:	The local variable name 'reset_custom_buttons' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:42:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:44:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:112:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:124:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:207:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/ReadText.java:335:	DoNotCallGarbageCollectionExplicitly:	Do not explicitly trigger a garbage collection.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:102:	UnnecessaryImport:	Unused import 'com.ichi2.anki.reviewer.CardMarker.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:103:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:367:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:370:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:521:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:522:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:522:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:613:	LocalVariableNamingConventions:	The local variable name 'flag_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:657:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:659:	LocalVariableNamingConventions:	The local variable name 'alpha_undo' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:659:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:672:	LocalVariableNamingConventions:	The local variable name 'toggle_whiteboard_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:673:	LocalVariableNamingConventions:	The local variable name 'hide_whiteboard_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:674:	LocalVariableNamingConventions:	The local variable name 'change_pen_color_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:725:	LocalVariableNamingConventions:	The local variable name 'suspend_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:726:	LocalVariableNamingConventions:	The local variable name 'bury_icon' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:999:	ControlStatementBraces:	This statement should have braces
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:1245:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java:1246:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:104:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:156:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:349:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:409:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:437:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:449:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:476:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:523:	UnusedLocalVariable:	Avoid unused local variables such as 'col'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:529:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:541:	UselessOverridingMethod:	Overriding method merely calls super
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:553:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:563:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:609:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/Statistics.java:621:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsActivity.java:22:	UnnecessaryImport:	Unused import 'android.view.View'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:65:	UnnecessaryImport:	Unused import 'com.ichi2.anim.ActivityTransitionAnimation.Direction.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:73:	UnusedPrivateField:	Avoid unused private fields such as 'BROWSE_CARDS'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:74:	UnusedPrivateField:	Avoid unused private fields such as 'STATISTICS'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:75:	UnusedPrivateField:	Avoid unused private fields such as 'DECK_OPTIONS'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:153:	PreserveStackTrace:	New exception is thrown in catch block, original stack trace may be lost
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:303:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:318:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:469:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:469:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:475:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:475:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:485:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:485:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:593:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java:759:	EmptyCatchBlock:	Avoid empty catch blocks
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:35:	UnnecessaryImport:	Unused import 'com.ichi2.async.TaskListener'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:46:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:74:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:318:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:319:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:366:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:366:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:379:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:399:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TemporaryModel.java:413:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/TtsParser.java:14:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/VideoPlayer.java:31:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'android.view.SurfaceHolder.Callback' due to existing import 'android.view.SurfaceHolder'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/VideoPlayer.java:90:	UselessOverridingMethod:	Overriding method merely calls super
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/analytics/UsageAnalytics.java:43:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/analytics/UsageAnalytics.java:89:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/analytics/UsageAnalytics.java:101:	NonThreadSafeSingleton:	Singleton is not thread safe
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/analytics/UsageAnalytics.java:271:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/debug/DatabaseLock.java:27:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CardBrowserMySearchesDialog.java:31:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CardBrowserMySearchesDialog.java:32:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CardBrowserMySearchesDialog.java:41:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/ContextMenuHelper.java:21:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/ContextMenuHelper.java:22:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/ContextMenuHelper.java:30:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CreateDeckDialog.java:150:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/CreateDeckDialog.java:150:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:106:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:108:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:121:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:123:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:127:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:204:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:222:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:268:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:286:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:297:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:306:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:317:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:330:	FormalParameterNamingConventions:	The lambda parameter name 'inner_dialog' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DatabaseErrorDialog.java:334:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerAnalyticsOptInDialog.java:23:	UnnecessaryImport:	Unused import 'com.ichi2.anki.AnkiDroidApp'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:28:	UnnecessaryImport:	Unused import 'com.ichi2.anki.NavigationDrawerActivity'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:43:	UnnecessaryImport:	Unused import 'androidx.fragment.app.FragmentFactory'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:78:	ClassNamingConventions:	The annotation name 'DECK_PICKER_CONTEXT_MENU' doesn't match '[A-Z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:108:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:161:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:161:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckPickerContextMenu.java:176:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckSelectionDialog.java:143:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckSelectionDialog.java:290:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckSelectionDialog.java:291:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DeckSelectionDialog.java:338:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/DiscardChangesDialog.java:24:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/ExportCompleteDialog.java:20:	UnnecessaryImport:	Unused import 'android.os.Message'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/ExportDialog.java:112:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/HelpDialog.java:54:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/HelpDialog.java:302:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/HelpDialog.java:309:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/HelpDialog.java:312:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/HelpDialog.java:353:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/LocaleSelectionDialog.java:143:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/MediaCheckDialog.java:16:	UnnecessaryImport:	Unused import 'java.util.stream.Collectors'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/RecursivePictureMenu.java:51:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/RecursivePictureMenu.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/RescheduleDialog.java:31:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	A class which only has private constructors should be final
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/WhiteBoardWidthDialog.java:21:	UnnecessaryImport:	Unused import 'android.content.SharedPreferences'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/WhiteBoardWidthDialog.java:27:	UnnecessaryImport:	Unused import 'com.ichi2.anki.AnkiDroidApp'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CreateCustomStudySessionListener.java:19:	UnnecessaryImport:	Unused import 'com.ichi2.anki.dialogs.customstudy.CustomStudyDialog.CustomStudyListener'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CreateCustomStudySessionListener.java:24:	UnnecessaryImport:	Unused import 'com.ichi2.anki.dialogs.customstudy.CreateCustomStudySessionListener.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CustomStudyDialog.java:158:	ImplicitSwitchFallThrough:	A switch statement does not contain a break
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CustomStudyDialog.java:300:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CustomStudyDialog.java:305:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CustomStudyDialog.java:326:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/customstudy/CustomStudyDialog.java:376:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/tags/TagsArrayAdapter.java:37:	UnnecessaryImport:	Unused import 'androidx.annotation.VisibleForTesting.*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/tags/TagsDialogFactory.java:18:	UnnecessaryImport:	Unnecessary import from the current package 'com.ichi2.anki.dialogs.tags.TagsDialogListener'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/tags/TagsList.java:21:	UnnecessaryImport:	Unused import 'java.util.Collections'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/dialogs/tags/TagsList.java:39:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/exception/ConfirmModSchemaException.java:29:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/exception/ConfirmModSchemaException.java:29:	UncommentedEmptyConstructor:	Document empty constructor
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:25:	UnnecessaryImport:	Unused import 'com.ichi2.anki.CollectionHelper'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:35:	UnnecessaryImport:	Unused import 'com.ichi2.themes.StyledProgressDialog'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:36:	UnnecessaryImport:	Unused import 'com.ichi2.utils.FunctionalInterfaces'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:48:	UnnecessaryImport:	Unused import 'androidx.fragment.app.FragmentFactory'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:185:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:192:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:192:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ActivityExportingDelegate.java:198:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ExportDialogsFactory.java:23:	UnnecessaryImport:	Unused import 'androidx.appcompat.app.AppCompatActivity'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/export/ExportDialogsFactory.java:25:	UnnecessaryImport:	Unused import 'androidx.fragment.app.FragmentFactory'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/AudioView.java:205:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/LoadPronounciationActivity.java:292:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/LoadPronounciationActivity.java:325:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:460:	UnusedPrivateMethod:	Avoid unused private methods such as 'init(IField)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:464:	UnusedPrivateMethod:	Avoid unused private methods such as 'uiChange(IField)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:468:	UnusedPrivateMethod:	Avoid unused private methods such as 'fieldChange(IField)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:492:	UnusedPrivateMethod:	Avoid unused private methods such as 'onPreFieldControllerReplacement(IFieldController)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:507:	UnusedPrivateMethod:	Avoid unused private methods such as 'onControllerCreationFailed(ChangeUIRequest,MultimediaEditFieldActivity)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:523:	UnusedPrivateMethod:	Avoid unused private methods such as 'onPostUICreation(ChangeUIRequest,MultimediaEditFieldActivity)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java:538:	UnusedPrivateMethod:	Avoid unused private methods such as 'onRequiredPermissionDenied(ChangeUIRequest,MultimediaEditFieldActivity)'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/PickStringDialogFragment.java:37:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/PickStringDialogFragment.java:38:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'android.content.DialogInterface.OnClickListener' due to existing import 'android.content.DialogInterface'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/PickStringDialogFragment.java:63:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/TranslationActivity.java:87:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/TranslationActivity.java:305:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/TranslationActivity.java:336:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/beolingus/parsing/BeolingusParser.java:31:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicAudioClipFieldController.java:97:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicAudioClipFieldController.java:97:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicControllerFactory.java:22:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	A class which only has private constructors should be final
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicControllerFactory.java:28:	SingletonClassReturningNewInstance:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:67:	UnnecessaryImport:	Unused import 'com.ichi2.utils.ContentResolverUtil'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:78:	UnnecessaryImport:	Unused import 'java.io.InputStream'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:79:	UnnecessaryImport:	Unused import 'java.util.Map'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:214:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:375:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:375:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:380:	EmptyStatementNotInLoop:	An empty statement (semicolon) not part of a loop
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:401:	EmptyStatementNotInLoop:	An empty statement (semicolon) not part of a loop
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:405:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicImageFieldController.java:405:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:66:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:344:	LocalVariableNamingConventions:	The final local variable name 'PICK_RESULT_ACTION' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:345:	LocalVariableNamingConventions:	The final local variable name 'SEARCH_ACTION' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:346:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_QUERY' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:347:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_FULLSCREEN' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:348:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_HEIGHT' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:349:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_WIDTH' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:350:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_GRAVITY' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:351:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_MARGIN_LEFT' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:352:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_MARGIN_TOP' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:353:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_MARGIN_BOTTOM' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/BasicTextFieldController.java:354:	LocalVariableNamingConventions:	The final local variable name 'EXTRA_MARGIN_RIGHT' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/fields/TextField.java:102:	UncommentedEmptyMethodBody:	Document empty method body
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/impl/MultimediaEditableNote.java:36:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/impl/MultimediaEditableNote.java:60:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBase.java:34:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBase.java:51:	FormalParameterNamingConventions:	The method parameter name 'Language' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBase.java:60:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBeolingus.java:34:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBeolingus.java:35:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBeolingus.java:36:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguageListerBeolingus.java:37:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguagesListerGlosbe.java:37:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/language/LanguagesListerGlosbe.java:57:	NonThreadSafeSingleton:	Singleton is not thread safe
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/CustomToolbarButton.java:74:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/CustomToolbarButton.java:93:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/FieldState.java:106:	LocalVariableNamingConventions:	The local variable name 'edit_line_view' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/FieldState.java:123:	LocalVariableNamingConventions:	The local variable name 'edit_line_view' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/Toolbar.java:27:	UnnecessaryImport:	Unused import 'android.os.Build'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/Toolbar.java:53:	UnnecessaryImport:	Unused import 'androidx.annotation.RequiresApi'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/Toolbar.java:56:	UnnecessaryImport:	Unused import 'kotlin.Suppress'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/noteeditor/Toolbar.java:215:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:221:	LocalVariableNamingConventions:	The final local variable name 'WHITELIST' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:253:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:253:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:271:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:280:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:287:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:296:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:305:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:323:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:335:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:389:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:400:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:415:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:444:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:516:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:516:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:646:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:722:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:788:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:823:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'com.ichi2.libanki.Note' due to existing import 'com.ichi2.libanki.Note'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:823:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'com.ichi2.libanki.Note' due to existing import 'com.ichi2.libanki.Note'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:862:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:876:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'com.ichi2.libanki.Note' due to existing import 'com.ichi2.libanki.Note'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:876:	UnnecessaryFullyQualifiedName:	Unnecessary use of fully qualified name 'com.ichi2.libanki.Note' due to existing import 'com.ichi2.libanki.Note'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:931:	LocalVariableNamingConventions:	The local variable name 'card_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:1043:	PreserveStackTrace:	New exception is thrown in catch block, original stack trace may be lost
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:1141:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:1208:	UnusedFormalParameter:	Avoid unused method parameters such as 'col'.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/provider/CardContentProvider.java:1366:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/ActionButtonStatus.java:29:	UnnecessaryImport:	Unused import 'java.util.HashMap'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/GestureMapper.java:142:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/GestureMapper.java:153:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/GestureMapper.java:164:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/PeripheralKeymap.java:86:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/reviewer/ReviewerCustomFonts.java:28:	UnnecessaryImport:	Unused import 'java.util.HashMap'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/DebugInfoService.java:33:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/DebugInfoService.java:39:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/DebugInfoService.java:46:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/DebugInfoService.java:67:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/servicelayer/NoteService.java:50:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/services/BootService.java:158:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/services/ReminderService.java:83:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/services/ReminderService.java:164:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:42:	SingleMethodSingleton:	Class contains multiple getInstance methods. Please review.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:119:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:149:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:149:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:149:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:182:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:212:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:212:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:212:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:286:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/AnkiStatsTaskHandler.java:286:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/ChartBuilder.java:71:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/ChartBuilder.java:128:	LocalVariableNamingConventions:	The local variable name 'FontHeight' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/ChartBuilder.java:218:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/ChartBuilder.java:297:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/ChartBuilder.java:359:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:99:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:233:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:239:	UselessParentheses:	Useless parentheses.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:246:	MethodNamingConventions:	The instance method name '_title' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:251:	MethodNamingConventions:	The instance method name '_subtitle' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:262:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:289:	MethodNamingConventions:	The instance method name '_due' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/OverviewStatsBuilder.java:315:	MethodNamingConventions:	The instance method name '_limit' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/StatsAsyncTask.java:27:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/stats/StatsMetaInfo.java:186:	FormalParameterNamingConventions:	The method parameter name 'Mcount' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/CustomSyncServer.java:26:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HostNumFactory.java:24:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java:49:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java:107:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java:130:	FormalParameterNamingConventions:	The method parameter name 'UrlToFile' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java:140:	FormalParameterNamingConventions:	The method parameter name 'UrlToFile' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java:161:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/widgets/DeckAdapter.java:394:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/widgets/DeckAdapter.java:395:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/widgets/PopupMenuWithIcons.java:39:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+/Users/simranbhamra/Documents/GitHub/sim-dev/AnkiDroid/src/main/java/com/ichi2/anki/workarounds/FirefoxSnackbarWorkaround.java:39:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
