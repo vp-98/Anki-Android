@@ -2,7 +2,7 @@
  
  ### Issue 9341
   Files 
-  * AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java
+  * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java
   * AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java
   * AnkiDroid/src/main/res/layout-xlarge/homescreen.xml
   * AnkiDroid/src/main/res/layout/deck_picker.xml
