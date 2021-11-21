@@ -3,10 +3,10 @@
  ### Issue 9341
   Files 
   * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/DeckPicker.java
-  * AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java
-  * AnkiDroid/src/main/res/layout-xlarge/homescreen.xml
-  * AnkiDroid/src/main/res/layout/deck_picker.xml
-  * AnkiDroid/src/main/res/layout/homescreen.xml
+  * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/DeckPickerFloatingActionMenu.java
+  * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/res/layout-xlarge/homescreen.xml
+  * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/res/layout/deck_picker.xml
+  * https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/res/layout/homescreen.xml
   
   Commits 
   * https://github.com/vp-98/Anki-Android/commit/cdffbf48047f7a6941b43d8c67bd485e4e156acc
@@ -18,9 +18,9 @@
   ### Issue 9490
    Files 
     
-* AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsActivity.java
-* AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java
-* AnkiDroid/src/test/java/com/ichi2/anki/StudyOptionsActivityTest.java 
+* https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsActivity.java
+* https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/StudyOptionsFragment.java
+* https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/test/java/com/ichi2/anki/StudyOptionsActivityTest.java 
     
  Commits
     
@@ -32,7 +32,7 @@
 ### Issue 9503
 
 Files 
-* AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java
+* https://github.com/vp-98/Anki-Android/blob/progress-report/AnkiDroid/src/main/java/com/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity.java
 
 Commits 
 * https://github.com/vp-98/Anki-Android/commit/026dee6fdaa181e852f490cbb12d1cde92a0c966
