@@ -70,6 +70,9 @@
         android:id="@+id/action_suspend_card"
         android:icon="@drawable/ic_pause_circle_outline"
         android:title="@string/card_browser_suspend_card"/>
+    <item
+        android:id="@+id/action_export_cards"
+        android:title="@string/card_editor_export_card"/>
 
     <item
         android:id="@+id/action_change_deck"
