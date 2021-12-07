@@ -20,6 +20,7 @@
 
 package com.ichi2.anki;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -36,9 +37,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.TextUtils;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager.BadTokenException;
 import android.webkit.URLUtil;
+import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.ichi2.anim.ActivityTransitionAnimation;
@@ -89,6 +92,8 @@ import androidx.annotation.VisibleForTesting;
 import androidx.annotation.XmlRes;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.CheckBoxPreference;
@@ -240,7 +245,6 @@ public class Preferences extends AnkiActivity {
         }
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -283,6 +287,12 @@ public class Preferences extends AnkiActivity {
         mOldCollectionPath = state.getString("mOldCollectionPath");
     }
 
+    // For the new search feature
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.preferences_search_menu, menu);
+        return true;
+    }
 
     // ----------------------------------------------------------------------------
     // Class methods
@@ -867,6 +877,7 @@ public class Preferences extends AnkiActivity {
 
         @Override
         protected void initSubscreen() {
+            Timber.tag("DEBUGGING").e("You have called initSubscreen you dip-shit");
             addPreferencesFromResource(R.xml.preferences_general);
             PreferenceScreen screen = getPreferenceScreen();
             if (AdaptionUtil.isRestrictedLearningDevice()) {
