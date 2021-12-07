@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_search_preferences"
         android:icon="@drawable/ic_search_white"
-        android:title="@string/action_search_pref"
+        android:title="@string/searching_action"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView"
         />

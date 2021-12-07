@@ -405,6 +405,6 @@
 
 
     <!-- Strings for Search Preference -->
-    <string name="action_search_pref">Search</string>
+    <string name="searching_action">Search</string>
 
 </resources>
