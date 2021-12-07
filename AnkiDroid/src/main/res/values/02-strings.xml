@@ -405,6 +405,6 @@
 
 
     <!-- Strings for Search Preference -->
-    <string name="searching_action">Search</string>
+    <string name="searching_action" comment="This is for searching in the settings options">Search Settings</string>
 
 </resources>
