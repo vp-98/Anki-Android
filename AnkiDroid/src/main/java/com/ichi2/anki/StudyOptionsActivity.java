@@ -33,7 +33,7 @@ import static com.ichi2.anim.ActivityTransitionAnimation.Direction.END;
 public class StudyOptionsActivity extends NavigationDrawerActivity implements StudyOptionsListener,
         CustomStudyDialog.CustomStudyListener {
 
-    private StudyOptionsFragment mOptionsFragment;
+    protected StudyOptionsFragment mOptionsFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (showedActivityFailedScreen(savedInstanceState)) {
@@ -50,7 +50,8 @@ public class StudyOptionsActivity extends NavigationDrawerActivity implements St
         }
     }
 
-    private void loadStudyOptionsFragment() {
+
+    protected void loadStudyOptionsFragment() {
         boolean withDeckOptions = false;
         if (getIntent().getExtras() != null) {
             withDeckOptions = getIntent().getExtras().getBoolean("withDeckOptions");
