@@ -36,6 +36,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.TextUtils;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager.BadTokenException;
 import android.webkit.URLUtil;
@@ -240,7 +241,6 @@ public class Preferences extends AnkiActivity {
         }
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -283,6 +283,12 @@ public class Preferences extends AnkiActivity {
         mOldCollectionPath = state.getString("mOldCollectionPath");
     }
 
+    // For the new search feature
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.preferences_search_menu, menu);
+        return true;
+    }
 
 
 
@@ -869,6 +875,7 @@ public class Preferences extends AnkiActivity {
 
         @Override
         protected void initSubscreen() {
+            Timber.tag("DEBUGGING").e("You have called initSubscreen you dip-shit");
             addPreferencesFromResource(R.xml.preferences_general);
             PreferenceScreen screen = getPreferenceScreen();
             if (AdaptionUtil.isRestrictedLearningDevice()) {
