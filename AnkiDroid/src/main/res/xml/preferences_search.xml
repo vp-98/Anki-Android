@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com>
+~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
+~ Copyright (c) 2009 Jordi Chacon <jordi.chacon@gmail.com>
+~ Copyright (c) 2011 Norbert Nagold <norbert.nagold@gmail.com>
+~ Copyright (c) 2012 Kostas Spyropoulos <inigo.aldana@gmail.com>
+~ Copyright (c) 2014 Timothy Rae <perceptualchaos2@gmail.com>
+~
+~ This program is free software; you can redistribute it and/or modify it under
+~ the terms of the GNU General Public License as published by the Free Software
+~ Foundation; either version 3 of the License, or (at your option) any later
+~ version.
+~
+~ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+~ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+~ PARTICULAR PURPOSE. See the GNU General Public License for more details.
+~
+~ You should have received a copy of the GNU General Public License along with
+~ this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name"
+    android:summary="@string/pref_cat_search" >
+    <!--  General Preferences -->
+    <PreferenceCategory android:title="@string/sync_account"/>
+    <PreferenceCategory android:title="@string/sync_fetch_missing_media"/>
+    <PreferenceCategory android:title="@string/automatic_sync_choice"/>
+    <PreferenceCategory  android:title="@string/sync_status_badge" />
+    <PreferenceCategory  android:title="@string/use_current"/>
+    <PreferenceCategory  android:title="@string/language" />
+    <PreferenceCategory android:title="@string/analytics_title" />
+    <PreferenceCategory  android:title="@string/paste_as_png" />
+    <PreferenceCategory  android:title="@string/error_reporting_choice" />
+    <PreferenceCategory  android:title="@string/notification_pref_title" />
+    <PreferenceCategory android:title="@string/notification_minimum_cards_due_vibrate" />
+    <PreferenceCategory  android:title="@string/notification_minimum_cards_due_blink" />
+
+    <!--  Reviewing Preferences -->
+    <PreferenceCategory android:title="@string/new_spread"  />
+    <PreferenceCategory  android:title="@string/day_offset_with_description" />
+    <PreferenceCategory  android:title="@string/learn_cutoff" />
+    <PreferenceCategory  android:title="@string/time_limit" />
+    <PreferenceCategory  android:title="@string/new_timezone" />
+    <PreferenceCategory  android:title="@string/pref_double_tap_time_interval" />
+    <PreferenceCategory  android:title="@string/custom_buttons" />
+    <PreferenceCategory  android:title="@string/pref_keep_screen_on" />
+    <PreferenceCategory  android:title="@string/fullscreen_review" />
+    <PreferenceCategory  android:title="@string/vertical_centering" />
+    <PreferenceCategory  android:title="@string/show_estimates" />
+    <PreferenceCategory  android:title="@string/card_zoom" />
+    <PreferenceCategory android:title="@string/image_zoom" />
+    <PreferenceCategory android:title="@string/button_size" />
+    <PreferenceCategory android:title="@string/answer_buttons_position" />
+    <PreferenceCategory android:title="@string/show_top_bar" />
+    <PreferenceCategory android:title="@string/show_progress" />
+    <PreferenceCategory android:title="@string/show_eta" />
+    <PreferenceCategory android:title="@string/show_large_answer_buttons" />
+    <PreferenceCategory android:title="@string/whiteboard_stroke_width" />
+    <PreferenceCategory  android:title="@string/timeout_answer_text" />
+    <PreferenceCategory  android:title="@string/timeout_answer" />
+    <PreferenceCategory  android:title="@string/timeout_answer_seconds" />
+    <PreferenceCategory  android:title="@string/timeout_question_seconds" />
+
+    <!--  Appearance Preferences -->
+    <PreferenceCategory android:title="@string/day_theme"/>
+    <PreferenceCategory  android:title="@string/night_theme"/>
+    <PreferenceCategory  android:title="@string/choose_an_image"/>
+    <PreferenceCategory  android:title="@string/default_font"/>
+    <PreferenceCategory android:title="@string/override_font"/>
+    <PreferenceCategory android:title="@string/pref_browser_editor_font"/>
+    <PreferenceCategory android:title="@string/card_browser_font_size"/>
+    <PreferenceCategory android:title="@string/card_browser_hide_media"/>
+
+
+    <!--  Gestures Preferences-->
+    <PreferenceCategory android:title="@string/gestures"/>
+    <PreferenceCategory android:title="@string/gestures_allow_links"/>
+    <PreferenceCategory android:title="@string/gestures_corner_touch"/>
+    <PreferenceCategory  android:title="@string/gestures_full_screen_nav_drawer"/>
+    <PreferenceCategory android:title="@string/swipe_sensitivity"/>
+    <PreferenceCategory android:title="@string/gestures_swipe_up"/>
+    <PreferenceCategory android:title="@string/gestures_swipe_down"/>
+    <PreferenceCategory android:title="@string/gestures_swipe_left"/>
+    <PreferenceCategory android:title="@string/gestures_swipe_right"/>
+    <PreferenceCategory android:title="@string/gestures_double_tap"/>
+    <PreferenceCategory android:title="@string/gestures_corner_tap_top_left"/>
+    <PreferenceCategory android:title="@string/gestures_tap_top"/>
+    <PreferenceCategory android:title="@string/gestures_corner_tap_top_right"/>
+    <PreferenceCategory android:title="@string/gestures_tap_left"/>
+    <PreferenceCategory android:title="@string/gestures_corner_tap_middle_center"/>
+    <PreferenceCategory android:title="@string/gestures_tap_right"/>
+    <PreferenceCategory android:title="@string/gestures_corner_tap_bottom_left"/>
+    <PreferenceCategory android:title="@string/gestures_tap_bottom"/>
+    <PreferenceCategory android:title="@string/gestures_corner_tap_bottom_right"/>
+    <PreferenceCategory android:title="@string/gestures_volume_up"/>
+    <PreferenceCategory android:title="@string/gestures_volume_down"/>
+
+    <!--  Advanced Preferences-->
+    <PreferenceCategory android:title="@string/col_path"/>
+    <PreferenceCategory android:title="@string/force_full_sync_title"/>
+    <PreferenceCategory  android:title="@string/custom_sync_server_title"/>
+    <PreferenceCategory  android:title="@string/pref_backup_max"/>
+    <PreferenceCategory  android:title="@string/software_render"/>
+    <PreferenceCategory  android:title="@string/safe_display"/>
+    <PreferenceCategory  android:title="@string/use_input_tag"/>
+    <PreferenceCategory  android:title="@string/disable_extended_text_ui"/>
+    <PreferenceCategory  android:title="@string/note_editor_replace_newlines"/>
+    <PreferenceCategory  android:title="@string/no_code_formatting"/>
+    <PreferenceCategory  android:title="@string/type_in_answer_focus"/>
+    <PreferenceCategory  android:title="@string/exit_via_double_tap_back"/>
+    <PreferenceCategory  android:title="@string/media_import_allow_all_files"/>
+    <PreferenceCategory  android:title="@string/enable_api_title"/>
+    <PreferenceCategory  android:title="@string/thirdparty_apps_title"/>
+    <PreferenceCategory  android:title="@string/tts"/>
+    <PreferenceCategory  android:title="@string/dictionary"/>
+    <PreferenceCategory  android:title="@string/reset_languages"/>
+    <PreferenceCategory  android:title="@string/convert_fen_text"/>
+    <PreferenceCategory  android:title="@string/more_scrolling_buttons"/>
+    <PreferenceCategory  android:title="@string/double_scrolling_gap"/>
+    <PreferenceCategory  android:title="@string/advanced_statistics_title"/>
+    <PreferenceCategory  android:title="@string/html_javascript_debugging"/>
+    <PreferenceCategory  android:title="@string/about_title"/>
+
+</PreferenceScreen>

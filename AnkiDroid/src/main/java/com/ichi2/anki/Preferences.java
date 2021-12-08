@@ -859,6 +859,59 @@ public class Preferences extends AnkiActivity {
         protected abstract void initSubscreen();
     }
 
+    public static class SearchSettingsFragment extends SpecificSettingsFragment {
+        @Override
+        public int getPreferenceResource() {
+            return R.xml.preferences_search;
+        }
+
+
+        @Override
+        protected void initSubscreen() {
+            addPreferencesFromResource(R.xml.preferences_search);
+            PreferenceScreen screen = getPreferenceScreen();
+            if (AdaptionUtil.isRestrictedLearningDevice()) {
+                CheckBoxPreference checkBoxPref_Vibrate = requirePreference("widgetVibrate");
+                CheckBoxPreference checkBoxPref_Blink = requirePreference("widgetBlink");
+                PreferenceCategory category = requirePreference("category_general_notification_pref");
+                category.removePreference(checkBoxPref_Vibrate);
+                category.removePreference(checkBoxPref_Blink);
+            }
+            // Build languages
+            initializeLanguageDialog(screen);
+        }
+
+        private void initializeLanguageDialog(PreferenceScreen screen) {
+            ListPreference languageSelection = screen.findPreference(LANGUAGE);
+            if (languageSelection != null) {
+                Map<String, String> items = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
+                for (String localeCode : LanguageUtil.APP_LANGUAGES) {
+                    Locale loc = LanguageUtil.getLocale(localeCode);
+                    items.put(loc.getDisplayName(loc), loc.toString());
+                }
+                CharSequence[] languageDialogLabels = new CharSequence[items.size() + 1];
+                CharSequence[] languageDialogValues = new CharSequence[items.size() + 1];
+                languageDialogLabels[0] = getResources().getString(R.string.language_system);
+                languageDialogValues[0] = "";
+                int i = 1;
+                for (Map.Entry<String, String> e : items.entrySet()) {
+                    languageDialogLabels[i] = e.getKey();
+                    languageDialogValues[i] = e.getValue();
+                    i++;
+                }
+
+                languageSelection.setEntries(languageDialogLabels);
+                languageSelection.setEntryValues(languageDialogValues);
+            }
+        }
+
+        @NonNull
+        @Override
+        protected String getAnalyticsScreenNameConstant() {
+            return "prefs.general";
+        }
+    }
+
     public static class GeneralSettingsFragment extends SpecificSettingsFragment {
         @Override
         public int getPreferenceResource() {
@@ -875,7 +928,6 @@ public class Preferences extends AnkiActivity {
 
         @Override
         protected void initSubscreen() {
-            Timber.tag("DEBUGGING").e("You have called initSubscreen you dip-shit");
             addPreferencesFromResource(R.xml.preferences_general);
             PreferenceScreen screen = getPreferenceScreen();
             if (AdaptionUtil.isRestrictedLearningDevice()) {

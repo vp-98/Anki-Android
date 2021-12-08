@@ -17,6 +17,12 @@
 
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Search Preferences -->
+    <Preference
+        android:fragment="com.ichi2.anki.Preferences$SearchSettingsFragment"
+        android:summary="Search the preference center"
+        android:title="Search">
+    </Preference>
     <!--  General Preferences -->
     <Preference
         android:fragment="com.ichi2.anki.Preferences$GeneralSettingsFragment"
