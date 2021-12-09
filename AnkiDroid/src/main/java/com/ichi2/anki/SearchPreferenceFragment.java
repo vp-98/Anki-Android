@@ -40,11 +40,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link SearchPreferenceFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class SearchPreferenceFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
@@ -59,27 +54,8 @@ public class SearchPreferenceFragment extends Fragment {
     private HashMap<String, String> mFragmentMap;
     private FragmentManager mFragmentManager;
 
-    public SearchPreferenceFragment() {
-        // Required empty public constructor
-    }
-
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment SearchPreferenceFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static SearchPreferenceFragment newInstance(String param1, String param2) {
-        SearchPreferenceFragment fragment = new SearchPreferenceFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
+    public SearchPreferenceFragment(SearchView searchView) {
+        mSearchView = searchView; // Take searchView from parent's toolbar
     }
 
 
@@ -105,12 +81,13 @@ public class SearchPreferenceFragment extends Fragment {
         List<String> lines = new ArrayList<String>(mFragmentMap.keySet()); // Get keys as items to view in search
 
         // Layout items
-        mSearchView = (SearchView) view.findViewById(R.id.search_view_pref);   // Search edit box
         mListView = (ListView) view.findViewById(R.id.search_result_listview); // List view to hold results
         mStringArrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, lines);
         mListView.setAdapter(mStringArrayAdapter);
         mFragmentManager = getParentFragmentManager(); // Needed to switch between fragments
 
+        // Setting up search view functionality with ArrayAdapter
+        mSearchView.setQueryHint("Search");
         mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {

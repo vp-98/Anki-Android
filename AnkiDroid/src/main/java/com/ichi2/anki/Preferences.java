@@ -90,6 +90,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.annotation.XmlRes;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.CheckBoxPreference;
@@ -195,6 +196,7 @@ public class Preferences extends AnkiActivity {
     public static final String EXTRA_SHOW_FRAGMENT = ":android:show_fragment";
     private Menu mMenu;
     private boolean mInSearchFragment;
+    private SearchView mSearchView;
     // ----------------------------------------------------------------------------
     // Overridden methods
     // ----------------------------------------------------------------------------
@@ -251,7 +253,7 @@ public class Preferences extends AnkiActivity {
             // set search page view to false
             mMenu.findItem(R.id.action_search_preferences).setVisible(false);
 
-            Fragment searchFrag = new SearchPreferenceFragment();
+            Fragment searchFrag = new SearchPreferenceFragment(mSearchView);
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.settings_container, searchFrag)
@@ -309,6 +311,9 @@ public class Preferences extends AnkiActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.preferences_search_menu, menu);
+
+        MenuItem menuItem = menu.findItem(R.id.action_search_preferences);
+        mSearchView = (SearchView) menuItem.getActionView();
         mMenu = menu;
         return true;
     }

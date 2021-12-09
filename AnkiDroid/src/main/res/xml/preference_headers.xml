@@ -17,12 +17,6 @@
 
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Search Preferences -->
-    <Preference
-        android:fragment="com.ichi2.anki.Preferences$SearchSettingsFragment"
-        android:summary="@string/pref_cat_search_sum"
-        android:title="@string/pref_cat_search">
-    </Preference>
     <!--  General Preferences -->
     <Preference
         android:fragment="com.ichi2.anki.Preferences$GeneralSettingsFragment"
