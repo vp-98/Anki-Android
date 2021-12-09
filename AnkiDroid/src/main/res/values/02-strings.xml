@@ -404,7 +404,6 @@
     <string name="suspended_card">Suspended card</string>
     <string name="suspended_note">Suspended note</string>
 
-
     <!-- Strings for Search Preference -->
     <string name="searching_action" comment="This is for searching in the settings options">Search Settings</string>
 

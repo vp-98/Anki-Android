@@ -193,7 +193,8 @@ public class Preferences extends AnkiActivity {
 
 
     public static final String EXTRA_SHOW_FRAGMENT = ":android:show_fragment";
-
+    private Menu mMenu;
+    private boolean mInSearchFragment;
     // ----------------------------------------------------------------------------
     // Overridden methods
     // ----------------------------------------------------------------------------
@@ -210,7 +211,7 @@ public class Preferences extends AnkiActivity {
         setTitle(getResources().getText(R.string.preferences_title));
 
         Fragment fragment = getInitialFragment(getIntent());
-
+        mInSearchFragment = false;
         // onRestoreInstanceState takes priority, this is only set on init.
         mOldCollectionPath = CollectionHelper.getCollectionPath(this);
 
@@ -218,7 +219,6 @@ public class Preferences extends AnkiActivity {
                 .beginTransaction()
                 .replace(R.id.settings_container, fragment)
                 .commit();
-
     }
 
 
@@ -247,6 +247,17 @@ public class Preferences extends AnkiActivity {
             onBackPressed();
             return true;
         }
+        if (item.getItemId() == R.id.action_search_preferences) {
+            // set search page view to false
+            mMenu.findItem(R.id.action_search_preferences).setVisible(false);
+
+            Fragment searchFrag = new SearchPreferenceFragment();
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.settings_container, searchFrag)
+                    .commit();
+            mInSearchFragment = true;
+        }
         return false;
     }
 
@@ -254,6 +265,17 @@ public class Preferences extends AnkiActivity {
     public void onBackPressed() {
         // If the collection path has changed, we want to move back to the deck picker immediately
         // This performs the move when back is pressed on the "Advanced" screen
+        if (mInSearchFragment) {
+            mMenu.findItem(R.id.action_search_preferences).setVisible(true);
+            Fragment initialFrag = getInitialFragment(getIntent());
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.settings_container, initialFrag)
+                    .commit();
+            mInSearchFragment = false;
+            return;
+        }
+
         if (!Utils.equals(CollectionHelper.getCollectionPath(this), mOldCollectionPath)) {
             restartWithNewDeckPicker();
         } else {
@@ -287,6 +309,7 @@ public class Preferences extends AnkiActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.preferences_search_menu, menu);
+        mMenu = menu;
         return true;
     }
 
