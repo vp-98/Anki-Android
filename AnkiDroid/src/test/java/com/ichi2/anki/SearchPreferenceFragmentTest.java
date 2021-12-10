@@ -33,7 +33,6 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import static org.robolectric.util.FragmentTestUtil.startFragment;
 
 @RunWith(AndroidJUnit4.class)
 public class SearchPreferenceFragmentTest extends RobolectricTest {
