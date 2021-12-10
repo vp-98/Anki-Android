@@ -1,0 +1,665 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		AnkiFinal</p>
+      <p>SpotBugs version: 4.5.0</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>C:\Users\benja\Downloads\Anki-Android-master (1)\Anki-Android-master</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>0 lines of code analyzed,
+	in 0 classes, 
+	in 3 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right">3</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">12</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Low Priority Warnings</td>
+            <td align="right">9</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>24</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+         </li>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+            </td>
+            <td align="right">2</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+            </td>
+            <td align="right">2</td>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">20</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>24</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_CORRECTNESS">Correctness Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e340');">
+            <td>
+               <span class="priority-1">NP</span>
+            </td>
+            <td>com.ichi2.preferences.NumberRangePreferenceCompat$NumberRangeDialogFragmentCompat.getEditText() may return null, but is declared @Nonnull</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e340" style="display: none;">
+                  <a href="#NP_NONNULL_RETURN_VIOLATION">Bug type NP_NONNULL_RETURN_VIOLATION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.NumberRangePreferenceCompat$NumberRangeDialogFragmentCompat<br/>In method com.ichi2.preferences.NumberRangePreferenceCompat$NumberRangeDialogFragmentCompat.getEditText()<br/>At NumberRangePreferenceCompat.kt:[line 185]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e165');">
+            <td>
+               <span class="priority-1">RCN</span>
+            </td>
+            <td>Nullcheck of cursor at line 1127 of value previously dereferenced in com.ichi2.anki.Preferences$AppearanceSettingsFragment.onActivityResult(int, int, Intent)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e165" style="display: none;">
+                  <a href="#RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE">Bug type RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AppearanceSettingsFragment<br/>In method com.ichi2.anki.Preferences$AppearanceSettingsFragment.onActivityResult(int, int, Intent)<br/>Value loaded from cursor<br/>Return value of android.content.ContentResolver.query(Uri, String[], String, String[], String) of type android.database.Cursor<br/>At Preferences.java:[line 1127]<br/>Redundant null check at Preferences.java:[line 1145]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_PERFORMANCE">Performance Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e196');">
+            <td>
+               <span class="priority-2">SS</span>
+            </td>
+            <td>Unread field: com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest.invalidXmlFile; should this field be static?</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e196" style="display: none;">
+                  <a href="#SS_SHOULD_BE_STATIC">Bug type SS_SHOULD_BE_STATIC (click for details)</a>
+                  <br/>In class com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest<br/>Field com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest.invalidXmlFile<br/>At DuplicateTextInPreferencesXmlTest.java:[line 13]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e209');">
+            <td>
+               <span class="priority-2">SS</span>
+            </td>
+            <td>Unread field: com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest.validXmlFile; should this field be static?</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e209" style="display: none;">
+                  <a href="#SS_SHOULD_BE_STATIC">Bug type SS_SHOULD_BE_STATIC (click for details)</a>
+                  <br/>In class com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest<br/>Field com.ichi2.anki.lint.rules.DuplicateTextInPreferencesXmlTest.validXmlFile<br/>At DuplicateTextInPreferencesXmlTest.java:[line 31]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_STYLE">Dodgy code Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e222');">
+            <td>
+               <span class="priority-2">BC</span>
+            </td>
+            <td>Questionable cast from Collection to abstract class java.util.List in com.ichi2.preferences.ControlPreference.checkExistingBinding(MappableBinding)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e222" style="display: none;">
+                  <a href="#BC_BAD_CAST_TO_ABSTRACT_COLLECTION">Bug type BC_BAD_CAST_TO_ABSTRACT_COLLECTION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.ControlPreference<br/>In method com.ichi2.preferences.ControlPreference.checkExistingBinding(MappableBinding)<br/>Actual type java.util.Collection<br/>Expected java.util.List<br/>Value loaded from destination$iv$iv<br/>At ControlPreference.kt:[line 204]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e244');">
+            <td>
+               <span class="priority-2">BC</span>
+            </td>
+            <td>Questionable cast from Collection to abstract class java.util.List in com.ichi2.preferences.ControlPreference.getExistingCommands(MappableBinding)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e244" style="display: none;">
+                  <a href="#BC_BAD_CAST_TO_ABSTRACT_COLLECTION">Bug type BC_BAD_CAST_TO_ABSTRACT_COLLECTION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.ControlPreference<br/>In method com.ichi2.preferences.ControlPreference.getExistingCommands(MappableBinding)<br/>Actual type java.util.Collection<br/>Expected java.util.List<br/>Value loaded from destination$iv$iv<br/>At ControlPreference.kt:[line 210]<br/>Another occurrence at ControlPreference.kt:[line 214]<br/>Another occurrence at ControlPreference.kt:[line 217]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e270');">
+            <td>
+               <span class="priority-2">BC</span>
+            </td>
+            <td>Questionable cast from Collection to abstract class java.util.List in com.ichi2.preferences.ControlPreference.getSummary()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e270" style="display: none;">
+                  <a href="#BC_BAD_CAST_TO_ABSTRACT_COLLECTION">Bug type BC_BAD_CAST_TO_ABSTRACT_COLLECTION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.ControlPreference<br/>In method com.ichi2.preferences.ControlPreference.getSummary()<br/>Actual type java.util.Collection<br/>Expected java.util.List<br/>Value loaded from destination$iv$iv<br/>At ControlPreference.kt:[line 200]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e292');">
+            <td>
+               <span class="priority-2">BC</span>
+            </td>
+            <td>Questionable cast from Collection to abstract class java.util.List in com.ichi2.preferences.ControlPreference.refreshEntries()</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e292" style="display: none;">
+                  <a href="#BC_BAD_CAST_TO_ABSTRACT_COLLECTION">Bug type BC_BAD_CAST_TO_ABSTRACT_COLLECTION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.ControlPreference<br/>In method com.ichi2.preferences.ControlPreference.refreshEntries()<br/>Actual type java.util.Collection<br/>Expected java.util.List<br/>Value loaded from destination$iv$iv<br/>At ControlPreference.kt:[line 194]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e4');">
+            <td>
+               <span class="priority-2">DCN</span>
+            </td>
+            <td>Do not catch NullPointerException like in com.ichi2.anki.Preferences.updateSummary(Preference)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e4" style="display: none;">
+                  <a href="#DCN_NULLPOINTER_EXCEPTION">Bug type DCN_NULLPOINTER_EXCEPTION (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences<br/>In method com.ichi2.anki.Preferences.updateSummary(Preference)<br/>At Preferences.java:[line 511]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e16');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences.getDayOffset(Collection) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e16" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences<br/>In method com.ichi2.anki.Preferences.getDayOffset(Collection)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 423]<br/>Known null at Preferences.java:[line 423]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e32');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences.initPreference(Preference) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e32" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences<br/>In method com.ichi2.anki.Preferences.initPreference(Preference)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 375]<br/>Known null at Preferences.java:[line 375]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e48');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences.initPreference(Preference) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e48" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences<br/>In method com.ichi2.anki.Preferences.initPreference(Preference)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 378]<br/>Known null at Preferences.java:[line 378]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e64');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences.initPreference(Preference) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e64" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences<br/>In method com.ichi2.anki.Preferences.initPreference(Preference)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 387]<br/>Known null at Preferences.java:[line 387]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e80');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences$AdvancedSettingsFragment.initSubscreen() due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e80" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AdvancedSettingsFragment<br/>In method com.ichi2.anki.Preferences$AdvancedSettingsFragment.initSubscreen()<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 1244]<br/>Known null at Preferences.java:[line 1244]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e96');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$11() due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e96" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AdvancedSettingsFragment<br/>In method com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$11()<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 1365]<br/>Known null at Preferences.java:[line 1365]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e113');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$11() due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e113" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AdvancedSettingsFragment<br/>In method com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$11()<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 1366]<br/>Known null at Preferences.java:[line 1366]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e130');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$3(PreferenceScreen, CheckBoxPreference, MaterialDialog, DialogAction) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e130" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AdvancedSettingsFragment<br/>In method com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$3(PreferenceScreen, CheckBoxPreference, MaterialDialog, DialogAction)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 1256]<br/>Known null at Preferences.java:[line 1256]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e147');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$3(PreferenceScreen, CheckBoxPreference, MaterialDialog, DialogAction) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e147" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AdvancedSettingsFragment<br/>In method com.ichi2.anki.Preferences$AdvancedSettingsFragment.lambda$initSubscreen$3(PreferenceScreen, CheckBoxPreference, MaterialDialog, DialogAction)<br/>Local variable stored in JVM register ?<br/>Dereferenced at Preferences.java:[line 1258]<br/>Known null at Preferences.java:[line 1258]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e314');">
+            <td>
+               <span class="priority-1">NP</span>
+            </td>
+            <td>newValue must be non-null but is marked as nullable</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e314" style="display: none;">
+                  <a href="#NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE">Bug type NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE (click for details)</a>
+                  <br/>In class com.ichi2.preferences.ControlPreference<br/>In method com.ichi2.preferences.ControlPreference.callChangeListener(Object)<br/>Parameter newValue<br/>At ControlPreference.kt:[lines 112-130]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e184');">
+            <td>
+               <span class="priority-3">REC</span>
+            </td>
+            <td>Exception is caught when Exception is not thrown in com.ichi2.anki.Preferences$AppearanceSettingsFragment.onActivityResult(int, int, Intent)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e184" style="display: none;">
+                  <a href="#REC_CATCH_EXCEPTION">Bug type REC_CATCH_EXCEPTION (click for details)</a>
+                  <br/>In class com.ichi2.anki.Preferences$AppearanceSettingsFragment<br/>In method com.ichi2.anki.Preferences$AppearanceSettingsFragment.onActivityResult(int, int, Intent)<br/>At Preferences.java:[line 1150]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e328');">
+            <td>
+               <span class="priority-3">REC</span>
+            </td>
+            <td>Exception is caught when Exception is not thrown in com.ichi2.preferences.NumberRangePreferenceCompat.getDefaultValue()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e328" style="display: none;">
+                  <a href="#REC_CATCH_EXCEPTION">Bug type REC_CATCH_EXCEPTION (click for details)</a>
+                  <br/>In class com.ichi2.preferences.NumberRangePreferenceCompat<br/>In method com.ichi2.preferences.NumberRangePreferenceCompat.getDefaultValue()<br/>At NumberRangePreferenceCompat.kt:[line 154]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e353');">
+            <td>
+               <span class="priority-3">UwF</span>
+            </td>
+            <td>SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mSeekBar not initialized in constructor and dereferenced in com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.onBindDialogView(View)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e353" style="display: none;">
+                  <a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat<br/>Field com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mSeekBar<br/>In method com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.onBindDialogView(View)<br/>At SeekBarPreferenceCompat.java:[line 212]<br/>Another occurrence at SeekBarPreferenceCompat.java:[line 211]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e371');">
+            <td>
+               <span class="priority-3">UwF</span>
+            </td>
+            <td>SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mSeekLine not initialized in constructor and dereferenced in com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.addLabelsBelowSeekBar(Context)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e371" style="display: none;">
+                  <a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat<br/>Field com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mSeekLine<br/>In method com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.addLabelsBelowSeekBar(Context)<br/>At SeekBarPreferenceCompat.java:[line 275]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e387');">
+            <td>
+               <span class="priority-3">UwF</span>
+            </td>
+            <td>SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mValueText not initialized in constructor and dereferenced in com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.onValueUpdated()</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e387" style="display: none;">
+                  <a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat<br/>Field com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.mValueText<br/>In method com.ichi2.preferences.SeekBarPreferenceCompat$SeekBarDialogFragmentCompat.onValueUpdated()<br/>At SeekBarPreferenceCompat.java:[line 185]</p>
+            </td>
+         </tr>
+      </table>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+      <h2>
+         <a name="BC_BAD_CAST_TO_ABSTRACT_COLLECTION">BC_BAD_CAST_TO_ABSTRACT_COLLECTION: Questionable cast to abstract collection</a>
+      </h2>
+
+<p>
+This code casts a Collection to an abstract collection
+(such as <code>List</code>, <code>Set</code>, or <code>Map</code>).
+Ensure that you are guaranteed that the object is of the type
+you are casting to. If all you need is to be able
+to iterate through a collection, you don't need to cast it to a Set or List.
+</p>
+
+    <h2>
+         <a name="DCN_NULLPOINTER_EXCEPTION">DCN_NULLPOINTER_EXCEPTION: NullPointerException caught</a>
+      </h2>
+   
+<p>
+According to SEI Cert rule <a href="https://wiki.sei.cmu.edu/confluence/display/java/ERR08-J.+Do+not+catch+NullPointerException+or+any+of+its+ancestors">ERR08-J</a> NullPointerException should not be caught. Handling NullPointerException is considered an inferior alternative to null-checking.
+<p>
+This non-compliant code catches a NullPointerException to see if an incoming parameter is null:
+</p>
+<pre><code>
+boolean hasSpace(String m) {
+  try {
+    String ms[] = m.split(" ");
+    return names.length != 1;
+  } catch (NullPointerException e) {
+    return false;
+  }
+}
+</code></pre>
+<p>
+A compliant solution would use a null-check as in the following example:
+</p>
+<pre><code>
+boolean hasSpace(String m) {
+    if (m == null) return false;
+    String ms[] = m.split(" ");
+    return names.length != 1;
+}
+</code></pre>
+    
+     <h2>
+         <a name="NP_NONNULL_RETURN_VIOLATION">NP_NONNULL_RETURN_VIOLATION: Method may return null, but is declared @Nonnull</a>
+      </h2>
+      
+      <p>
+      This method may return a null value, but the method (or a superclass method
+      which it overrides) is declared to return @Nonnull.
+      </p>
+      
+   <h2>
+         <a name="NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE">NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE: Parameter must be non-null but is marked as nullable</a>
+      </h2>
+
+<p> This parameter is always used in a way that requires it to be non-null,
+but the parameter is explicitly annotated as being Nullable. Either the use
+of the parameter or the annotation is wrong.
+</p>
+
+    <h2>
+         <a name="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE: Possible null pointer dereference due to return value of called method</a>
+      </h2>
+      
+<p> The return value from a method is dereferenced without a null check,
+and the return value of that method is one that should generally be checked
+for null.  This may lead to a <code>NullPointerException</code> when the code is executed.
+</p>
+      
+   <h2>
+         <a name="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE">RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE: Nullcheck of value previously dereferenced</a>
+      </h2>
+
+<p> A value is checked here to see whether it is null, but this value can't
+be null because it was previously dereferenced and if it were null a null pointer
+exception would have occurred at the earlier dereference.
+Essentially, this code and the previous dereference
+disagree as to whether this value is allowed to be null. Either the check is redundant
+or the previous dereference is erroneous.</p>
+
+    <h2>
+         <a name="REC_CATCH_EXCEPTION">REC_CATCH_EXCEPTION: Exception is caught when Exception is not thrown</a>
+      </h2>
+  
+  <p>
+  This method uses a try-catch block that catches Exception objects, but Exception is not
+  thrown within the try block, and RuntimeException is not explicitly caught.  It is a common bug pattern to
+  say try { ... } catch (Exception e) { something } as a shorthand for catching a number of types of exception
+  each of whose catch blocks is identical, but this construct also accidentally catches RuntimeException as well,
+  masking potential bugs.
+  </p>
+  <p>A better approach is to either explicitly catch the specific exceptions that are thrown,
+  or to explicitly catch RuntimeException exception, rethrow it, and then catch all non-Runtime Exceptions, as shown below:</p>
+<pre><code>try {
+    ...
+} catch (RuntimeException e) {
+    throw e;
+} catch (Exception e) {
+    ... deal with all non-runtime exceptions ...
+}
+</code></pre>
+  
+     <h2>
+         <a name="SS_SHOULD_BE_STATIC">SS_SHOULD_BE_STATIC: Unread field: should this field be static?</a>
+      </h2>
+
+  <p> This class contains an instance final field that
+   is initialized to a compile-time static value.
+   Consider making the field static.</p>
+
+    <h2>
+         <a name="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR: Field not initialized in constructor but dereferenced without null check</a>
+      </h2>
+
+  <p> This field is never initialized within any constructor, and is therefore could be null after
+the object is constructed. Elsewhere, it is loaded and dereferenced without a null check.
+This could be a either an error or a questionable design, since
+it means a null pointer exception will be generated if that field is dereferenced
+before being initialized.
+</p>
+
+    </body>
+</html>
