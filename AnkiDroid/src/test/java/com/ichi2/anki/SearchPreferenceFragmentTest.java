@@ -36,47 +36,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 @RunWith(AndroidJUnit4.class)
 public class SearchPreferenceFragmentTest extends RobolectricTest {
-    private SearchPreferenceFragment mSearchPreferenceFragment;
-
-
-    @Override
-    public void setUp() {
-        mSearchPreferenceFragment = new SearchPreferenceFragment(mock(SearchView.class));
-        startFragment(mSearchPreferenceFragment);
-        super.setUp();
-    }
-
-    public static void startFragment( Fragment fragment ) {
-        FragmentActivity activity = Robolectric.buildActivity( FragmentActivity.class )
-                .create()
-                .start()
-                .resume()
-                .get();
-
-        FragmentManager fragmentManager = activity.getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add( fragment, null );
-        fragmentTransaction.commit();
-    }
-
-    @Override
-    @After
-    public void tearDown() {
-        super.tearDown();
-    }
-
-
-    /**
-     * testListview
-     *  Tests to see if the layout correclty initializes the listview that the results are filtered onto.
-     */
-    @Test
-    public void testListview() {
-        // Add it to a blank activity
-        ListView listView = (ListView) mSearchPreferenceFragment.getView().findViewById(R.id.search_result_listview);
-        assertNotEquals(listView, null);
-    }
-
 
     /**
      * testGenerateMap
@@ -84,21 +43,21 @@ public class SearchPreferenceFragmentTest extends RobolectricTest {
      */
     @Test
     public void testGenerateMap() {
-        mSearchPreferenceFragment.generateMap();
-
+        SearchPreferenceFragment searchFrag = new SearchPreferenceFragment(mock(SearchView.class));
+        searchFrag.generateMap();
         // Check to see if the correct mapping exists
         String[] options1 = {"AnkiWeb account", "Fetch media on sync", "Automatic synchronization"};
         String[] options2 = {"Force full sync", "Custom sync server", "Max number of backups"};
         String[] options3 = {"Swipe up", "Enable gestures", "Volume up"};
 
         for (String option : options1) {
-            assertEquals(mSearchPreferenceFragment.mFragmentMap.get(option), "General Preferences");
+            assertEquals(searchFrag.mFragmentMap.get(option), "General Preferences");
         }
         for (String option : options2) {
-            assertEquals(mSearchPreferenceFragment.mFragmentMap.get(option), "Advanced Preferences");
+            assertEquals(searchFrag.mFragmentMap.get(option), "Advanced Preferences");
         }
         for (String option : options3) {
-            assertEquals(mSearchPreferenceFragment.mFragmentMap.get(option), "Gesture Preferences");
+            assertEquals(searchFrag.mFragmentMap.get(option), "Gesture Preferences");
         }
     }
 
