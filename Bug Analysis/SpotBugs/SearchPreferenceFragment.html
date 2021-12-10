@@ -1,0 +1,263 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		AnkiFinal</p>
+      <p>SpotBugs version: 4.5.0</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>C:\Users\benja\Downloads\Anki-Android-master (1)\Anki-Android-master</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>0 lines of code analyzed,
+	in 0 classes, 
+	in 1 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">2</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Low Priority Warnings</td>
+            <td align="right">2</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>4</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+         </li>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+            </td>
+            <td align="right">2</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">2</td>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>4</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_PERFORMANCE">Performance Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e4');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: com.ichi2.anki.SearchPreferenceFragment.mParam1</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e4" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class com.ichi2.anki.SearchPreferenceFragment<br/>Field com.ichi2.anki.SearchPreferenceFragment.mParam1<br/>At SearchPreferenceFragment.java:[line 78]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e17');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: com.ichi2.anki.SearchPreferenceFragment.mParam2</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e17" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class com.ichi2.anki.SearchPreferenceFragment<br/>Field com.ichi2.anki.SearchPreferenceFragment.mParam2<br/>At SearchPreferenceFragment.java:[line 79]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_STYLE">Dodgy code Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e30');">
+            <td>
+               <span class="priority-3">UwF</span>
+            </td>
+            <td>SearchPreferenceFragment.mFragmentMap not initialized in constructor and dereferenced in com.ichi2.anki.SearchPreferenceFragment.onCreateView(LayoutInflater, ViewGroup, Bundle)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e30" style="display: none;">
+                  <a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.anki.SearchPreferenceFragment<br/>Field com.ichi2.anki.SearchPreferenceFragment.mFragmentMap<br/>In method com.ichi2.anki.SearchPreferenceFragment.onCreateView(LayoutInflater, ViewGroup, Bundle)<br/>At SearchPreferenceFragment.java:[line 102]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e46');">
+            <td>
+               <span class="priority-3">UwF</span>
+            </td>
+            <td>SearchPreferenceFragment.mFragmentMap not initialized in constructor and dereferenced in com.ichi2.anki.SearchPreferenceFragment$2.onItemClick(AdapterView, View, int, long)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e46" style="display: none;">
+                  <a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.anki.SearchPreferenceFragment<br/>Field com.ichi2.anki.SearchPreferenceFragment.mFragmentMap<br/>In method com.ichi2.anki.SearchPreferenceFragment$2.onItemClick(AdapterView, View, int, long)<br/>At SearchPreferenceFragment.java:[line 156]</p>
+            </td>
+         </tr>
+      </table>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+      <h2>
+         <a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
+      </h2>
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    <h2>
+         <a name="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR: Field not initialized in constructor but dereferenced without null check</a>
+      </h2>
+
+  <p> This field is never initialized within any constructor, and is therefore could be null after
+the object is constructed. Elsewhere, it is loaded and dereferenced without a null check.
+This could be a either an error or a questionable design, since
+it means a null pointer exception will be generated if that field is dereferenced
+before being initialized.
+</p>
+
+    </body>
+</html>

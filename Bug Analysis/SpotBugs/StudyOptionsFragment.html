@@ -1,0 +1,405 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		</p>
+      <p>SpotBugs version: 4.5.0</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>C:\Users\benja\Anki-Android</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>0 lines of code analyzed,
+	in 0 classes, 
+	in 1 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">11</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Low Priority Warnings</td>
+            <td align="right">3</td>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>14</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+         </li>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+            </td>
+            <td align="right">1</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">13</td>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>14</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e4');">
+            <td>
+               <span class="priority-3">MC</span>
+            </td>
+            <td>Overridable method configureToolbar is called from constructor new com.ichi2.anki.StudyOptionsFragment().</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e4" style="display: none;">
+                  <a href="#MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR">Bug type MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method new com.ichi2.anki.StudyOptionsFragment()<br/>Value configureToolbar<br/>At StudyOptionsFragment.java:[line 460]<br/>Another occurrence at StudyOptionsFragment.java:[line 480]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_STYLE">Dodgy code Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e20');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e20" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 400]<br/>Known null at StudyOptionsFragment.java:[line 400]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e36');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e36" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 426]<br/>Known null at StudyOptionsFragment.java:[line 426]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e52');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e52" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 428]<br/>Known null at StudyOptionsFragment.java:[line 428]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e68');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e68" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.configureToolbarInternal(boolean)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 433]<br/>Known null at StudyOptionsFragment.java:[line 433]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e84');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e84" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 344]<br/>Known null at StudyOptionsFragment.java:[line 344]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e100');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e100" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 359]<br/>Known null at StudyOptionsFragment.java:[line 359]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e116');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e116" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 376]<br/>Known null at StudyOptionsFragment.java:[line 376]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e132');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e132" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 379]<br/>Known null at StudyOptionsFragment.java:[line 379]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e148');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e148" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.onMenuItemClick(MenuItem)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 382]<br/>Known null at StudyOptionsFragment.java:[line 382]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e165');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.showCustomStudyContextMenu() due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e165" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.showCustomStudyContextMenu()<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 302]<br/>Known null at StudyOptionsFragment.java:[line 302]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e181');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.lambda$new$2(ActivityResult) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e181" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.lambda$new$2(ActivityResult)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 473]<br/>Known null at StudyOptionsFragment.java:[line 473]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e198');">
+            <td>
+               <span class="priority-3">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment.lambda$new$3(ActivityResult) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e198" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment<br/>In method com.ichi2.anki.StudyOptionsFragment.lambda$new$3(ActivityResult)<br/>Local variable stored in JVM register ?<br/>Dereferenced at StudyOptionsFragment.java:[line 489]<br/>Known null at StudyOptionsFragment.java:[line 489]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e215');">
+            <td>
+               <span class="priority-2">NP</span>
+            </td>
+            <td>Possible null pointer dereference in com.ichi2.anki.StudyOptionsFragment$2.onPostExecute(StudyOptionsFragment$DeckStudyData) due to return value of called method</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e215" style="display: none;">
+                  <a href="#NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">Bug type NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE (click for details)</a>
+                  <br/>In class com.ichi2.anki.StudyOptionsFragment$2<br/>In method com.ichi2.anki.StudyOptionsFragment$2.onPostExecute(StudyOptionsFragment$DeckStudyData)<br/>Value contained in com.ichi2.anki.StudyOptionsFragment.mStudyOptionsView<br/>Method invoked at StudyOptionsFragment.java:[line 612]<br/>Null value at StudyOptionsFragment.java:[line 606]<br/>Known null at StudyOptionsFragment.java:[line 612]</p>
+            </td>
+         </tr>
+      </table>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+      <h2>
+         <a name="MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR">MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR: An overridable method is called from a constructor</a>
+      </h2>
+      <p>
+      Calling an overridable method during in a constructor may result in the use of uninitialized data. It may also
+      leak the this reference of the partially constructed object. Only static, final or private methods should be
+      invoked from a constructor.</p>
+      <p>
+      See SEI CERT rule <a href="https://wiki.sei.cmu.edu/confluence/display/java/MET05-J.+Ensure+that+constructors+do+not+call+overridable+methods">MET05-J. Ensure that constructors do not call overridable methods</a>.
+      </p>
+    <h2>
+         <a name="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE">NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE: Possible null pointer dereference due to return value of called method</a>
+      </h2>
+      
+<p> The return value from a method is dereferenced without a null check,
+and the return value of that method is one that should generally be checked
+for null.  This may lead to a <code>NullPointerException</code> when the code is executed.
+</p>
+      
+   </body>
+</html>
