@@ -15,23 +15,15 @@
 package com.ichi2.anki;
 
 
-import android.widget.ListView;
-
-import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.Robolectric;
+
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.mockito.Mockito.mock;
 
 import androidx.appcompat.widget.SearchView;
-
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 @RunWith(AndroidJUnit4.class)
@@ -59,6 +51,17 @@ public class SearchPreferenceFragmentTest extends RobolectricTest {
         for (String option : options3) {
             assertEquals(searchFrag.mFragmentMap.get(option), "Gesture Preferences");
         }
+    }
+
+
+    /**
+     * testView
+     *  Test to see if the list view is correctly added for the the search view.
+     */
+    @Test
+    public void testView() {
+        SearchPreferenceFragment searchFrag = new SearchPreferenceFragment(mock(SearchView.class));
+        assertNotEquals(searchFrag.getView().findViewById(R.id.search_result_listview), null);
     }
 
 }
