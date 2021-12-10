@@ -14,28 +14,50 @@
 
 package com.ichi2.anki;
 
+
 import android.widget.ListView;
 
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.robolectric.Robolectric;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.mockito.Mockito.mock;
 
 import androidx.appcompat.widget.SearchView;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import static org.robolectric.util.FragmentTestUtil.startFragment;
 
 @RunWith(AndroidJUnit4.class)
 public class SearchPreferenceFragmentTest extends RobolectricTest {
-    private SearchPreferenceFragment mSearchPreferenceFragment = new SearchPreferenceFragment(null);
+    private SearchPreferenceFragment mSearchPreferenceFragment;
 
 
     @Override
     public void setUp() {
         mSearchPreferenceFragment = new SearchPreferenceFragment(mock(SearchView.class));
+        startFragment(mSearchPreferenceFragment);
         super.setUp();
+    }
+
+    public static void startFragment( Fragment fragment ) {
+        FragmentActivity activity = Robolectric.buildActivity( FragmentActivity.class )
+                .create()
+                .start()
+                .resume()
+                .get();
+
+        FragmentManager fragmentManager = activity.getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add( fragment, null );
+        fragmentTransaction.commit();
     }
 
     @Override
