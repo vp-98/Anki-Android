@@ -51,14 +51,26 @@ public class SearchPreferenceFragment extends Fragment {
     private ArrayAdapter<String> mStringArrayAdapter;
     private SearchView mSearchView;
     private ListView mListView;
-    private HashMap<String, String> mFragmentMap;
+    protected HashMap<String, String> mFragmentMap;
     private FragmentManager mFragmentManager;
 
+
+    /**
+     * Constructor
+     *  Instantiates the fragment and gives it a reference to the searchview object
+     *   that will be used to search with.
+     * @param searchView   The search bar that will be used
+     */
     public SearchPreferenceFragment(SearchView searchView) {
         mSearchView = searchView; // Take searchView from parent's toolbar
     }
 
 
+    /**
+     * onCreate
+     *  Performs the basic application startup logic. Happens only once for the entire life of the activity.
+     * @param savedInstanceState   Bundle object passed by the parent activity
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,6 +82,15 @@ public class SearchPreferenceFragment extends Fragment {
     }
 
 
+    /**
+     * onCreateview
+     *  Creates the fragment view and applies the layout to the fragment. The elements inside the fragment are
+     *    also initialized and set.
+     * @param inflater                inflater that will add the fragment's layout
+     * @param container               container in which the fragment is located
+     * @param savedInstanceState      Bundle object passed by the parent activity
+     * @return                        Fragment view.
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -89,6 +110,13 @@ public class SearchPreferenceFragment extends Fragment {
         // Setting up search view functionality with ArrayAdapter
         mSearchView.setQueryHint("Search");
         mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+            /**
+             * onQueryTextSubmit
+             *  Takes the text that was typed in the search view after the user hits enter.
+             * @param query   The text that the user typed
+             * @return        False by default
+             */
             @Override
             public boolean onQueryTextSubmit(String query) {
                 String message = "SearchPreference :: onQueryTextSubmit = " + query;
@@ -96,6 +124,14 @@ public class SearchPreferenceFragment extends Fragment {
                 return false;
             }
 
+
+            /**
+             * onQueryTextChange
+             *  Registers changes in the typed text in the search bar. Modifies the listview
+             *   with filtered results that match the user's search query.
+             * @param newText   Modified text
+             * @return          False by default
+             */
             @Override
             public boolean onQueryTextChange(String newText) {
                 mStringArrayAdapter.getFilter().filter(newText);
@@ -104,7 +140,15 @@ public class SearchPreferenceFragment extends Fragment {
         });
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @SuppressLint("DirectToastMakeTextUsage")
+
+            /**
+             * onItemClick
+             *  Determines which fragment needs to be created depending on which issue was selected.
+             * @param parent     Listview adapter view that is being used.
+             * @param view       Listview in use
+             * @param position   position/index of the item that was selected
+             * @param id         ID of the item that was selected
+             */
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Timber.d("Listview item onClick...");
@@ -141,7 +185,12 @@ public class SearchPreferenceFragment extends Fragment {
         return view;
     }
 
-    private void generateMap() {
+
+    /**
+     * generateMap
+     *  Generates a hashmap that contains key value pairs showing where each search/preference options is located.
+     */
+    protected void generateMap() {
         String[] options = {"AnkiWeb account", "Fetch media on sync", "Automatic synchronization", "Display synchronization status",
                 "Deck for new cards", "Language", "Share feature usage", "Paste clipboard images as PNG", "Error reporting mode",
                 "Notify when", "Vibrate", "Blink light", "New card position", "Start of next day", "Learn ahead limit",
