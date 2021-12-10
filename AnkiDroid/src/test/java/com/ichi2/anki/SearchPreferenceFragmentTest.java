@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
 
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 import static org.mockito.Mockito.mock;
 
 import androidx.appcompat.widget.SearchView;
@@ -31,16 +30,19 @@ public class SearchPreferenceFragmentTest extends RobolectricTest {
 
     /**
      * testGenerateMap
-     *  This tests to see if the map has correct key and value pairs using some sample option choices.
+     *  This tests to see if the correct destination preference page is returned for the request type.
      */
     @Test
-    public void testGenerateMap() {
+    public void testDestination() {
         SearchPreferenceFragment searchFrag = new SearchPreferenceFragment(mock(SearchView.class));
         searchFrag.generateMap();
         // Check to see if the correct mapping exists
-        String[] options1 = {"AnkiWeb account", "Fetch media on sync", "Automatic synchronization"};
+        String[] options1 = {"AnkiWeb account", "Fetch media on sync", "Automatic synchronization",
+            "Language", "Share feature usage", "Vibrate"};
         String[] options2 = {"Force full sync", "Custom sync server", "Max number of backups"};
-        String[] options3 = {"Swipe up", "Enable gestures", "Volume up"};
+        String[] options3 = {"Swipe up", "Enable gestures", "Volume up", "Full screen navigation drawer"};
+        String[] options4 = {"New card position", "Learn ahead limit", "Timeout answer",
+            "Time to show answer"};
 
         for (String option : options1) {
             assertEquals(searchFrag.mFragmentMap.get(option), "General Preferences");
@@ -51,17 +53,8 @@ public class SearchPreferenceFragmentTest extends RobolectricTest {
         for (String option : options3) {
             assertEquals(searchFrag.mFragmentMap.get(option), "Gesture Preferences");
         }
+        for (String option : options4) {
+            assertEquals(searchFrag.mFragmentMap.get(option), "Reviewing Preferences");
+        }
     }
-
-
-    /**
-     * testView
-     *  Test to see if the list view is correctly added for the the search view.
-     */
-    @Test
-    public void testView() {
-        SearchPreferenceFragment searchFrag = new SearchPreferenceFragment(mock(SearchView.class));
-        assertNotEquals(searchFrag.getView().findViewById(R.id.search_result_listview), null);
-    }
-
 }
