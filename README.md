@@ -42,6 +42,12 @@ Commits
 ### Issue 8342
 
 Files 
+* https://github.com/vp-98/Anki-Android/blob/master/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java
+* https://github.com/vp-98/Anki-Android/blob/master/AnkiDroid/src/main/java/com/ichi2/anki/SearchPreferenceFragment.java
+* https://github.com/vp-98/Anki-Android/blob/master/AnkiDroid/src/test/java/com/ichi2/anki/SearchPreferenceFragmentTest.java
+* https://github.com/vp-98/Anki-Android/blob/master/AnkiDroid/src/main/res/layout/fragment_search_preference.xml
+* https://github.com/vp-98/Anki-Android/blob/master/AnkiDroid/src/main/res/menu/preferences_search_menu.xml
+* https://github.com/vp-98/Anki-Android/blob/master/api/src/main/res/values/strings.xml
 
 Commits 
 * https://github.com/vp-98/Anki-Android/commit/d4ca63075eee484f632f2e76c3ff98f055c9db07
