@@ -60,3 +60,7 @@ Commits
 * https://github.com/vp-98/Anki-Android/commit/57094b0c0bba710eb3c7307f8bd6948556b4a929
 * https://github.com/vp-98/Anki-Android/commit/2109054d589ad5c0b5ec935fe50884f791d1c117
 
+
+
+## Bug Analysis 
+https://github.com/vp-98/Anki-Android/tree/final-report/Bug%20Analysis 
